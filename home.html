@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advocacia Profissional</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./depoimentos/DALL_E-2024-10-17-13.32-removebg-preview.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Advogado João Silva</h1>
+      <nav>
+        <a href="#home">Início</a>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
+    <div class="popup" id="popup">
+      <p>
+        Este site foi criado por
+        <a href="https://github.com/lipex5k" target="_blank"
+          >github.com/lipex5k</a
+        >.
+      </p>
+      <p>
+        Instagram:
+        <a href="https://www.instagram.com/euliperb" target="_blank"
+          >@euliperb</a
+        >
+      </p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/lipex5k" target="_blank"
+          >lipex5k</a
+        >
+      </p>
+      <button onclick="closePopup()">Fechar</button>
+    </div>
+    <section class="hero" id="home">
+      <h1 data-aos="fade-down">Consultoria Jurídica de Confiança</h1>
+      <p data-aos="fade-up">
+        Experiência e conhecimento para ajudar você a resolver seus problemas
+        legais com confiança.
+      </p>
+      <button data-aos="fade-up" class="cta-button">
+        Agende uma Consulta Gratuita
+      </button>
+    </section>
+
+    <section class="sobre-mim" id="sobre">
+      <div class="perfil">
+        <img
+          data-aos="fade-up"
+          src="./depoimentos/advperfil.webp"
+          alt="Advogado João Silva"
+        />
+      </div>
+
+      <div class="info-adv">
+        <div class="nomeadv">
+          <p data-aos="fade-right" class="cargo">Advogado</p>
+          <h1 data-aos="fade-left">João Silva</h1>
+        </div>
+        <div class="sobreadv">
+          <p data-aos="fade-up">
+            Com anos de experiência, João Silva é especializado em Direito de
+            Família, Defesa Criminal e Direito Empresarial. Ele está preparado
+            para ajudar seus clientes a resolverem seus problemas legais com
+            confiança e eficiência.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div data-aos="fade-left" class="service">
+        <h3>Direito de Família</h3>
+        <p>Soluções legais para casos de divórcio, guarda, e mais.</p>
+      </div>
+      <div data-aos="fade-right" class="service">
+        <h3>Defesa Criminal</h3>
+        <p>Representação forte e eficaz em questões criminais.</p>
+      </div>
+      <div data-aos="fade-left" class="service">
+        <h3>Direito Empresarial</h3>
+        <p>Consultoria jurídica para empresas e contratos.</p>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h2 style="padding: 20px; margin-bottom: 40px">Depoimentos</h2>
+      <div class="depoimentos-init">
+        <div class="depoimento" data-aos="fade-up">
+          <div class="perfil-img-depoimento">
+            <img
+              src="./depoimentos/perfils/p1.jpeg"
+              class="perfil-border"
+              alt="Perfil de Jonas"
+            />
+          </div>
+          <div class="name_depoimentos">
+            <h4>Jonas</h4>
+            <p>26 anos</p>
+            <div class="avaliacao">
+              <p>Avaliação:</p>
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="depoimento-text">
+            O João me ajudou com meu divórcio de forma rápida e eficiente.
+            Recomendo!
+          </p>
+        </div>
+
+        <div class="depoimento" data-aos="fade-up" data-aos-delay="200">
+          <div class="perfil-img-depoimento">
+            <img
+              src="./depoimentos/perfils/p2.jpeg"
+              class="perfil-border"
+              alt="Perfil de Alexandra"
+            />
+          </div>
+          <div class="name_depoimentos">
+            <h4>Alexandra</h4>
+            <p>60 anos</p>
+            <div class="avaliacao">
+              <p>Avaliação:</p>
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="depoimento-text">
+            Obrigado, consegui minha aposentadoria graças ao Adv. João.
+          </p>
+        </div>
+
+        <div class="depoimento" data-aos="fade-up" data-aos-delay="400">
+          <div class="perfil-img-depoimento">
+            <img
+              src="./depoimentos/perfils/p3.jpeg"
+              class="perfil-border"
+              alt="Perfil de Rafael"
+            />
+          </div>
+          <div class="name_depoimentos">
+            <h4>Rafael</h4>
+            <p>32 anos</p>
+            <div class="avaliacao">
+              <p>Avaliação:</p>
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="depoimento-text">
+            A assessoria do João foi fundamental para resolver meu caso
+            criminal. Excelente profissional!
+          </p>
+        </div>
+
+        <div class="depoimento" data-aos="fade-up" data-aos-delay="600">
+          <div class="perfil-img-depoimento">
+            <img
+              src="./depoimentos/perfils/p4.jpeg"
+              class="perfil-border"
+              alt="Perfil de Mariana"
+            />
+          </div>
+          <div class="name_depoimentos">
+            <h4>Mariana</h4>
+            <p>28 anos</p>
+            <div class="avaliacao">
+              <p>Avaliação:</p>
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="depoimento-text">
+            O Advogado João me orientou em todos os passos da criação da minha
+            empresa. Muito satisfeito!
+          </p>
+        </div>
+
+        <div class="depoimento" data-aos="fade-up" data-aos-delay="800">
+          <div class="perfil-img-depoimento">
+            <img
+              src="./depoimentos/perfils/p5.jpeg"
+              class="perfil-border"
+              alt="Perfil de Carlos"
+            />
+          </div>
+          <div class="name_depoimentos">
+            <h4>Carlos</h4>
+            <p>45 anos</p>
+            <div class="avaliacao">
+              <p>Avaliação:</p>
+              <p class="stars">⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="depoimento-text">
+            Graças ao João, consegui a guarda dos meus filhos. Agradeço
+            imensamente pelo apoio!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionmaps">
+      <div class="maps-header">
+        <h1>Visite Nosso Escritório</h1>
+      </div>
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d701.3363579979709!2d-49.90060949338625!3d-6.08243218076217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1729211321980!5m2!1sen!2sbr"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <footer id="contact" style="padding-top: 50px; padding-bottom: 30px">
+      <p data-aos="fade-up" style="padding-bottom: 30px">Entre em Contato</p>
+      <form>
+        <input data-aos="fade-left" type="text" placeholder="Seu Nome" />
+        <input data-aos="fade-right" type="email" placeholder="Seu Email" />
+        <textarea data-aos="fade-left" placeholder="Sua Mensagem"></textarea>
+        <input data-aos="fade-up" type="submit" value="Enviar" />
+      </form>
+      <p>Telefone: (xx) xxxx-xxxx</p>
+      <p>Email: contato@advogado.com</p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
